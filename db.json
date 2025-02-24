@@ -1,0 +1,484 @@
+{
+  "pizzas-doces": [
+    {
+      "id": "1",
+      "title": "Chocolate com Morango",
+      "description": "Pizza doce com chocolate derretido e morangos frescos.",
+      "price": "50.00",
+      "image": "./src/images/pizza-1.png",
+      "favorites": false
+    },
+    {
+      "id": "2",
+      "title": "Banana Caramelada",
+      "description": "Pizza doce com banana, caramelo e canela.",
+      "price": "45.00",
+      "image": "./src/images/pizza-2.png",
+      "favorites": true
+    },
+    {
+      "id": "3",
+      "title": "Romeu e Julieta",
+      "description": "Pizza doce com queijo branco e goiabada.",
+      "price": "48.00",
+      "image": "./src/images/pizza-3.png",
+      "favorites": false
+    },
+    {
+      "id": "4",
+      "title": "Prestígio",
+      "description": "Pizza doce com chocolate e coco ralado.",
+      "price": "52.00",
+      "image": "./src/images/pizza-4.png",
+      "favorites": false
+    },
+    {
+      "id": "5",
+      "title": "Doce de Leite",
+      "description": "Pizza doce com doce de leite cremoso.",
+      "price": "47.00",
+      "image": "./src/images/pizza-1.png",
+      "favorites": true
+    },
+    {
+      "id": "6",
+      "title": "Morango com Nutella",
+      "description": "Pizza doce com morangos e Nutella.",
+      "price": "55.00",
+      "image": "./src/images/pizza-2.png",
+      "favorites": false
+    },
+    {
+      "id": "7",
+      "title": "Brigadeiro",
+      "description": "Pizza doce com brigadeiro cremoso.",
+      "price": "49.00",
+      "image": "./src/images/pizza-3.png",
+      "favorites": false
+    },
+    {
+      "id": "8",
+      "title": "Maçã Caramelada",
+      "description": "Pizza doce com maçã, caramelo e canela.",
+      "price": "46.00",
+      "image": "./src/images/pizza-4.png",
+      "favorites": false
+    },
+    {
+      "id": "9",
+      "title": "Churros",
+      "description": "Pizza doce com doce de leite e canela.",
+      "price": "51.00",
+      "image": "./src/images/pizza-4.png",
+      "favorites": true
+    },
+    {
+      "id": "10",
+      "title": "Coco Queimado",
+      "description": "Pizza doce com coco queimado e chocolate.",
+      "price": "53.00",
+      "image": "./src/images/pizza-1.png",
+      "favorites": false
+    },
+    {
+      "id": "11",
+      "title": "Pavê de Chocolate",
+      "description": "Pizza doce com pavê de chocolate e biscoito.",
+      "price": "54.00",
+      "image": "./src/images/pizza-2.png",
+      "favorites": false
+    },
+    {
+      "id": "12",
+      "title": "Sorvete de Baunilha",
+      "description": "Pizza doce com sorvete de baunilha e calda de chocolate.",
+      "price": "56.00",
+      "image": "./src/images/pizza-3.png",
+      "favorites": false
+    },
+    {
+      "id": "13",
+      "title": "Marshmallow",
+      "description": "Pizza doce com marshmallow derretido e chocolate.",
+      "price": "57.00",
+      "image": "./src/images/pizza-4.png",
+      "favorites": false
+    },
+    {
+      "id": "14",
+      "title": "Pêssego com Mel",
+      "description": "Pizza doce com pêssego e mel.",
+      "price": "58.00",
+      "image": "./src/images/pizza-1.png",
+      "favorites": false
+    },
+    {
+      "id": "15",
+      "title": "Torta de Limão",
+      "description": "Pizza doce com creme de limão e merengue.",
+      "price": "59.00",
+      "image": "./src/images/pizza-2.png",
+      "favorites": false
+    }
+  ],
+  "pizzas-salgadas": [
+    {
+      "id": "16",
+      "title": "Mussarela",
+      "description": "Pizza clássica com queijo mussarela derretido.",
+      "price": "43.50",
+      "image": "./src/images/pizza-1.png",
+      "favorites": true
+    },
+    {
+      "id": "17",
+      "title": "Calabresa",
+      "description": "Pizza com linguiça calabresa, cebola e queijo mussarela.",
+      "price": "47.00",
+      "image": "./src/images/pizza-2.png",
+      "favorites": false
+    },
+    {
+      "id": "18",
+      "title": "Frango com Catupiry",
+      "description": "Pizza com frango desfiado e catupiry cremoso.",
+      "price": "52.00",
+      "image": "./src/images/pizza-3.png",
+      "favorites": true
+    },
+    {
+      "id": "19",
+      "title": "Portuguesa",
+      "description": "Pizza com presunto, mussarela, ovo, cebola, azeitonas e ervilha.",
+      "price": "55.00",
+      "image": "./src/images/pizza-4.png",
+      "favorites": false
+    },
+    {
+      "id": "20",
+      "title": "Margherita",
+      "description": "Pizza com mussarela, tomate fresco e manjericão.",
+      "price": "50.00",
+      "image": "./src/images/pizza-2.png",
+      "favorites": false
+    },
+    {
+      "id": "21",
+      "title": "Quatro Queijos",
+      "description": "Pizza com mussarela, parmesão, gorgonzola e catupiry.",
+      "price": "54.00",
+      "image": "./src/images/pizza-1.png",
+      "favorites": false
+    },
+    {
+      "id": "22",
+      "title": "Pepperoni",
+      "description": "Pizza com pepperoni e queijo mussarela.",
+      "price": "53.00",
+      "image": "./src/images/pizza-3.png",
+      "favorites": true
+    },
+    {
+      "id": "23",
+      "title": "Vegetariana",
+      "description": "Pizza com pimentão, cebola, tomate, azeitonas e milho.",
+      "price": "49.00",
+      "image": "./src/images/pizza-4.png",
+      "favorites": false
+    },
+    {
+      "id": "24",
+      "title": "Atum",
+      "description": "Pizza com atum, cebola e azeitonas.",
+      "price": "51.00",
+      "image": "./src/images/pizza-1.png",
+      "favorites": false
+    },
+    {
+      "id": "25",
+      "title": "Bacon",
+      "description": "Pizza com bacon crocante e queijo mussarela.",
+      "price": "56.00",
+      "image": "./src/images/pizza-2.png",
+      "favorites": false
+    },
+    {
+      "id": "26",
+      "title": "Napolitana",
+      "description": "Pizza com mussarela, tomate, alho e orégano.",
+      "price": "48.00",
+      "image": "./src/images/pizza-3.png",
+      "favorites": false
+    },
+    {
+      "id": "27",
+      "title": "Alho e Óleo",
+      "description": "Pizza com alho frito, azeite e queijo mussarela.",
+      "price": "46.00",
+      "image": "./src/images/pizza-4.png",
+      "favorites": false
+    },
+    {
+      "id": "28",
+      "title": "Lombo Canadense",
+      "description": "Pizza com lombo canadense, cebola e queijo mussarela.",
+      "price": "57.00",
+      "image": "./src/images/pizza-1.png",
+      "favorites": false
+    },
+    {
+      "id": "29",
+      "title": "Camarão",
+      "description": "Pizza com camarão, catupiry e cebola.",
+      "price": "60.00",
+      "image": "./src/images/pizza-2.png",
+      "favorites": false
+    },
+    {
+      "id": "30",
+      "title": "Carne Seca",
+      "description": "Pizza com carne seca, cebola e catupiry.",
+      "price": "58.00",
+      "image": "./src/images/pizza-3.png",
+      "favorites": false
+    }
+  ],
+  "bebidas-refrigerantes": [
+    {
+      "id": "31",
+      "title": "Coca-Cola",
+      "description": "Refrigerante de cola tradicional.",
+      "price": "8.00",
+      "image": "./src/images/refri-1.png",
+      "favorites": true
+    },
+    {
+      "id": "32",
+      "title": "Guaraná Antarctica",
+      "description": "Refrigerante de guaraná.",
+      "price": "7.50",
+      "image": "./src/images/refri-2.png",
+      "favorites": false
+    },
+    {
+      "id": "33",
+      "title": "Fanta Laranja",
+      "description": "Refrigerante sabor laranja.",
+      "price": "7.00",
+      "image": "./src/images/refri-3.png",
+      "favorites": false
+    },
+    {
+      "id": "34",
+      "title": "Sprite",
+      "description": "Refrigerante sabor limão.",
+      "price": "7.00",
+      "image": "./src/images/refri-4.png",
+      "favorites": false
+    },
+    {
+      "id": "35",
+      "title": "Pepsi",
+      "description": "Refrigerante de cola.",
+      "price": "7.50",
+      "image": "./src/images/refri-5.png",
+      "favorites": false
+    },
+    {
+      "id": "36",
+      "title": "Schweppes Citrus",
+      "description": "Refrigerante sabor citrus.",
+      "price": "8.50",
+      "image": "./src/images/refri-6.png",
+      "favorites": false
+    },
+    {
+      "id": "37",
+      "title": "Dolly Guaraná",
+      "description": "Refrigerante de guaraná.",
+      "price": "6.00",
+      "image": "./src/images/refri-1.png",
+      "favorites": false
+    },
+    {
+      "id": "38",
+      "title": "Kuat",
+      "description": "Refrigerante sabor guaraná.",
+      "price": "6.50",
+      "image": "./src/images/refri-1.png",
+      "favorites": false
+    },
+    {
+      "id": "39",
+      "title": "Sukita",
+      "description": "Refrigerante sabor laranja.",
+      "price": "6.00",
+      "image": "./src/images/refri-2.png",
+      "favorites": false
+    },
+    {
+      "id": "40",
+      "title": "Itubaina",
+      "description": "Refrigerante sabor guaraná.",
+      "price": "6.00",
+      "image": "./src/images/refri-3.png",
+      "favorites": false
+    },
+    {
+      "id": "41",
+      "title": "Tubaína",
+      "description": "Refrigerante sabor guaraná.",
+      "price": "6.00",
+      "image": "./src/images/refri-4.png",
+      "favorites": false
+    },
+    {
+      "id": "42",
+      "title": "Guaraná Jesus",
+      "description": "Refrigerante sabor guaraná com toque de canela.",
+      "price": "9.00",
+      "image": "./src/images/refri-5.png",
+      "favorites": false
+    },
+    {
+      "id": "43",
+      "title": "H2OH! Limão",
+      "description": "Água gaseificada com sabor de limão.",
+      "price": "7.00",
+      "image": "./src/images/refri-6.png",
+      "favorites": false
+    },
+    {
+      "id": "44",
+      "title": "Água Tônica",
+      "description": "Refrigerante tônico com quinino.",
+      "price": "8.00",
+      "image": "./src/images/refri-1.png",
+      "favorites": false
+    },
+    {
+      "id": "45",
+      "title": "Soda Limonada",
+      "description": "Refrigerante sabor limonada.",
+      "price": "7.00",
+      "image": "./src/images/refri-1.png",
+      "favorites": false
+    }
+  ],
+  "bebidas-quentes": [
+    {
+      "id": "46",
+      "title": "Café Expresso",
+      "description": "Café forte e encorpado.",
+      "price": "5.00",
+      "image": "./src/images/quente-1.png",
+      "favorites": true
+    },
+    {
+      "id": "47",
+      "title": "Cappuccino",
+      "description": "Café com leite vaporizado e chocolate em pó.",
+      "price": "9.00",
+      "image": "./src/images/quente-1.png",
+      "favorites": false
+    },
+    {
+      "id": "48",
+      "title": "Chá de Camomila",
+      "description": "Chá relaxante de camomila.",
+      "price": "6.00",
+      "image": "./src/images/quente-1.png",
+      "favorites": false
+    },
+    {
+      "id": "49",
+      "title": "Chá de Hortelã",
+      "description": "Chá refrescante de hortelã.",
+      "price": "6.00",
+      "image": "./src/images/quente-1.png",
+      "favorites": false
+    },
+    {
+      "id": "50",
+      "title": "Chocolate Quente",
+      "description": "Chocolate cremoso e quente.",
+      "price": "8.00",
+      "image": "./src/images/quente-1.png",
+      "favorites": true
+    },
+    {
+      "id": "51",
+      "title": "Café com Leite",
+      "description": "Café misturado com leite quente.",
+      "price": "6.00",
+      "image": "./src/images/quente-1.png",
+      "favorites": false
+    },
+    {
+      "id": "52",
+      "title": "Chá Verde",
+      "description": "Chá verde com propriedades antioxidantes.",
+      "price": "7.00",
+      "image": "./src/images/quente-1.png",
+      "favorites": false
+    },
+    {
+      "id": "53",
+      "title": "Chá de Erva-Doce",
+      "description": "Chá digestivo de erva-doce.",
+      "price": "6.00",
+      "image": "./src/images/quente-1.png",
+      "favorites": false
+    },
+    {
+      "id": "54",
+      "title": "Café Mocha",
+      "description": "Café com chocolate e chantilly.",
+      "price": "10.00",
+      "image": "./src/images/quente-1.png",
+      "favorites": false
+    },
+    {
+      "id": "55",
+      "title": "Chá de Maçã",
+      "description": "Chá sabor maçã com canela.",
+      "price": "7.00",
+      "image": "./src/images/quente-1.png",
+      "favorites": false
+    },
+    {
+      "id": "56",
+      "title": "Café Americano",
+      "description": "Café diluído em água quente.",
+      "price": "5.00",
+      "image": "./src/images/quente-1.png",
+      "favorites": false
+    },
+    {
+      "id": "57",
+      "title": "Chá de Gengibre",
+      "description": "Chá energético de gengibre.",
+      "price": "7.00",
+      "image": "./src/images/quente-1.png",
+      "favorites": false
+    },
+    {
+      "id": "58",
+      "title": "Café Macchiato",
+      "description": "Café expresso com uma dose de leite vaporizado.",
+      "price": "7.00",
+      "image": "./src/images/quente-1.png",
+      "favorites": false
+    }
+  ],
+  "carrinho": [
+    {
+      "id": "19",
+      "title": "Portuguesa",
+      "description": "Pizza com presunto, mussarela, ovo, cebola, azeitonas e ervilha.",
+      "price": "55.00",
+      "image": "./src/images/pizza-4.png",
+      "favorites": false
+    }
+  ]
+}
