@@ -1,7 +1,7 @@
 # La Pizza
 
 
-> Este projeto está sendo desenvolvido com a finalidade de colocar em prática tudo o que venho estudando de desnvolvimento Front end
+> Este projeto está sendo desenvolvido com a finalidade de colocar em prática tudo o que venho estudando de desenvolvimento Front end
 
 
 #### O que já foi implementado
@@ -11,7 +11,7 @@
 - [x] Funcionalidades de adicionar e remover itens ao carrinho;
 - [x] Filtros de categoria para requisições de dados via axios;
 - [x] Campo de busca funcionando dinamicamente;
-- [x] Configuração do ambiente de testes.
+- [x] Configuração inicial do ambiente de testes.
 
 
 #### Próximas etapas

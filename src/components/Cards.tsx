@@ -1,10 +1,10 @@
 import Btn from './Btn'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
-import axios from 'axios'
+import { useDispatch } from 'react-redux'
+import { addProductsToCart } from '../store/actions/cart'
 
 const heart = <FontAwesomeIcon icon={faHeart} />
-
 
 type CardsProps = {
     name: string;
@@ -13,21 +13,11 @@ type CardsProps = {
     srcImg: string;
     favorites: boolean;
     id:number;
+    qtd: number;
 }
-const Cards = ({name, description, value, srcImg, favorites, id}: CardsProps) => {
+const Cards = ({name, description, value, srcImg, favorites, id, qtd=1}: CardsProps) => {
 
-  const addItemToCart = () => {
-    
-    axios.post('http://localhost:3000/carrinho', {
-      id: id,
-      title: name,
-      description: description,
-      price: value,
-      image: srcImg,
-      favorites: favorites
-    })
-    
-  }
+  const dispath = useDispatch()
   
   return (
     <div className='border-border border-2 bg-dark-20 flex flex-col w-70 items-center text-center gap-5 rounded-xl mt-12 shadow-2xl px-2'>
@@ -37,7 +27,11 @@ const Cards = ({name, description, value, srcImg, favorites, id}: CardsProps) =>
         <h3 className='font-inter font-semibold text-xl '>{name}</h3>
         <p className='font-inter'>{description}</p>
         <p className='mb-8 text-3xl font-semibold font-inter'>R$ {Number(value).toFixed(2)}</p>
-        <span className='-mb-3'><Btn value='Adicionar ao carrinho' addedToCart={addItemToCart}></Btn></span>
+        <span className='-mb-3'>
+          <Btn value='Adicionar ao carrinho' 
+            addedToCart={() => dispath(addProductsToCart({name, description, value, srcImg, favorites, id, qtd}))}>
+          </Btn>
+        </span>
       </div>
   )
 }

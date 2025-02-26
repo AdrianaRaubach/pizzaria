@@ -470,15 +470,5 @@
       "image": "./src/images/quente-1.png",
       "favorites": false
     }
-  ],
-  "carrinho": [
-    {
-      "id": "19",
-      "title": "Portuguesa",
-      "description": "Pizza com presunto, mussarela, ovo, cebola, azeitonas e ervilha.",
-      "price": "55.00",
-      "image": "./src/images/pizza-4.png",
-      "favorites": false
-    }
   ]
 }
