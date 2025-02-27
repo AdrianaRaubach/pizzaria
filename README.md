@@ -12,12 +12,11 @@
 - [x] Filtros de categoria para requisições de dados via axios;
 - [x] Campo de busca funcionando dinamicamente;
 - [x] Configuração inicial do ambiente de testes.
-
+- [x] Implementação do Redux para gerenciamento de estados globais;
 
 #### Próximas etapas
 
 - [ ] Implementação de testes usando react testing library;
-- [ ] Implementação do Redux para gerenciamento de estados globais;
 - [ ] Criação de páginas de login/cadastro;
 - [ ] Implementação de autenticação com o Clerk.
 

@@ -29,7 +29,7 @@ const Cards = ({name, description, value, srcImg, favorites, id, qtd=1}: CardsPr
         <p className='mb-8 text-3xl font-semibold font-inter'>R$ {Number(value).toFixed(2)}</p>
         <span className='-mb-3'>
           <Btn value='Adicionar ao carrinho' 
-            addedToCart={() => dispath(addProductsToCart({name, description, value, srcImg, favorites, id, qtd}))}>
+            addedToCart={() => dispath(addProductsToCart({id, name, value, qtd}))}>
           </Btn>
         </span>
       </div>
